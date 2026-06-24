@@ -12,7 +12,7 @@ import analyticsRoutes from "./routes/analytics.route.js";
 
 import { connectDB } from "./lib/db.js";
 
-dotenv.config({ path: "./backend/.env" });
+dotenv.config();
 console.log("ENV TEST =", process.env.MONGO_URI);
 
 const app = express();
